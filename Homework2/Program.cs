@@ -10,5 +10,5 @@ int b=int.Parse(Console.ReadLine()!);
 if (a>b)
 {Console.Write ($"Из этих чисел больше число a: {a} ");}
 else if (b>a)
-{{Console.Write ("Из этих чисел больше число b: ");}}
+{Console.Write ($"Из этих чисел больше число b: {b} ");}
 else {{Console.Write ("Данные числа равны ");}}
